@@ -1,0 +1,14 @@
+# robots.txt for Australian Government Resources Directory
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://australian-government-resources.com/sitemap.xml
+
+# Crawl-delay (optional, helps prevent server overload)
+Crawl-delay: 1
+
+# Block specific bots if needed (currently allowing all)
+# User-agent: BadBot
+# Disallow: /
