@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Primary Meta Tags -->
-    <title>Australian Government Resources | Official Directory & Gateway 2026</title>
-    <meta name="title" content="Australian Government Resources | Official Directory & Gateway 2026">
-    <meta name="description" content="Comprehensive directory of Australian Government resources including official websites, health services, education, police forces, ATO, Services Australia, and more. Your complete guide to Australian government services.">
-    <meta name="keywords" content="Australian government, government resources, Australia gov, ABS, ATO, Services Australia, Australian Federal Police, health services, education Australia, police forces, government directory, official government websites, Australian government services, government information Australia">
+    <title>Australian Government Resources | <u>Unofficial</u> Directory & Gateway 2026</title>
+    <meta name="title" content="Australian Government Resources | <u>Unofficial</u> Directory & Gateway 2026">
+    <meta name="description" content="Comprehensive directory of Australian Government resources including <u>unofficial</u> websites, health services, education, police forces, ATO, Services Australia, and more. Your complete guide to Australian government services.">
+    <meta name="keywords" content="Australian government, government resources, Australia gov, ABS, ATO, Services Australia, Australian Federal Police, health services, education Australia, police forces, government directory, <u>unofficial</u> government websites, Australian government services, government information Australia">
     <meta name="author" content="Mac Foote">
     <meta name="robots" content="index, follow">
     <meta name="language" content="English">
@@ -17,8 +17,8 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://govresourcesau.com/">
-    <meta property="og:title" content="Australian Government Resources | Official Directory & Gateway 2026">
-    <meta property="og:description" content="Comprehensive directory of Australian Government resources including official websites, health services, education, police forces, and more.">
+    <meta property="og:title" content="Australian Government Resources | Unofficial Directory & Gateway 2026">
+    <meta property="og:description" content="Comprehensive directory of Australian Government resources including unofficial websites, health services, education, police forces, and more.">
     <meta property="og:image" content="https://govresourcesau.com/og-image.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -28,8 +28,8 @@
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://govresourcesau.com/">
-    <meta property="twitter:title" content="Australian Government Resources | Official Directory & Gateway 2026">
-    <meta property="twitter:description" content="Comprehensive directory of Australian Government resources including official websites, health services, education, police forces, and more.">
+    <meta property="twitter:title" content="Australian Government Resources | Unofficial Directory & Gateway 2026">
+    <meta property="twitter:description" content="Comprehensive directory of Australian Government resources including unofficial websites, health services, education, police forces, and more.">
     <meta property="twitter:image" content="https://govresourcesau.com/og-image.jpg">
     
     <!-- Canonical URL -->
@@ -50,7 +50,7 @@
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "Australian Government Resources",
-        "description": "Comprehensive directory of Australian Government resources and official websites",
+        "description": "Comprehensive directory of Australian Government resources and <u>unofficial</u> websites",
         "url": "https://govresourcesau.com/",
         "author": {
           "@type": "Person",
@@ -78,10 +78,10 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "What is the official Australian Government website?",
+            "name": "What is the <u>unofficial</u> Australian Government website?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Australia.gov.au is the official gateway to Australian government information and services, providing access to all federal, state, and territory resources."
+              "text": "Australia.gov.au is the <u>unofficial</u> gateway to Australian government information and services, providing access to all federal, state, and territory resources."
             }
           },
           {
@@ -97,7 +97,7 @@
             "name": "Where can I find Australian tax information?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Australian Taxation Office (ATO) at ato.gov.au provides official tax and superannuation information, lodgment services, and financial compliance resources."
+              "text": "The Australian Taxation Office (ATO) at ato.gov.au provides <u>unofficial</u> tax and superannuation information, lodgment services, and financial compliance resources."
             }
           },
           {
@@ -114,12 +114,21 @@
     </script>
 </head>
 <body>
+    <!-- Disclaimer Modal -->
+    <div id="disclaimerModal" class="modal">
+        <div class="modal-content">
+            <h2>Disclaimer</h2>
+            <p>This site is not affiliated with the Australian Government in any way and is merely a directory for their resources.</p>
+            <button id="disclaimerBtn" class="modal-btn">I understand</button>
+        </div>
+    </div>
+    
     <header>
         <div class="header-top">
             <img src="./images/government.png" alt="Australian Government Emblem" class="seal">
             <div class="header-content">
-                <h1>Australian Government Resources | Official Directory & Gateway</h1>
-                <p class="tagline">Unofficial Gateway to Government Resources</p>
+                <h1>Australian Government Resources | <u>Unofficial</u> Directory & Gateway</h1>
+                <p class="tagline"><u>Unofficial</u> Gateway to Government Resources</p>
             </div>
         </div>
     </header>
@@ -160,16 +169,15 @@
                 <h2>Official Government Websites</h2>
                 <p class="section-intro">Access primary Australian government portals and key federal departments for citizens and residents.</p>
                 <ul>
-                    <li><a href="https://www.australia.gov.au/" target="_blank" rel="noopener noreferrer" title="Australia.gov.au - Main government portal">Australia.gov.au</a> - The official gateway to Australian government information and services, providing access to all federal, state, and territory resources.</li>
-                    <li><a href="https://www.abs.gov.au/" target="_blank" rel="noopener noreferrer" title="Australian Bureau of Statistics">Australian Bureau of Statistics (ABS)</a> - Australia's national statistical agency providing comprehensive data on the economy, population, demographics, and society.</li>
-                    <li><a href="https://www.ato.gov.au/" target="_blank" rel="noopener noreferrer" title="Australian Taxation Office">Australian Taxation Office (ATO)</a> - Official tax and superannuation information, lodgment services, and financial compliance resources for individuals and businesses.</li>
-                    <li><a href="https://www.servicesaustralia.gov.au/" target="_blank" rel="noopener noreferrer" title="Services Australia - Centrelink, Medicare, Child Support">Services Australia</a> - Access to Centrelink payments, Medicare services, Child Support, and other social security benefits and programs.</li>
+                    <li><a href="https://www.australia.gov.au/" target="_blank" rel="noopener noreferrer" title="Australia.gov.au - Main government portal">Australia.gov.au</a> - Provides access to MyGov login and other government services.</li>
+                    <li><a href="https://www.abs.gov.au/" target="_blank" rel="noopener noreferrer" title="Australian Bureau of Statistics">Australian Bureau of Statistics (ABS)</a> - Provides data on Australia's economy, population environment and more. Useful for research.</li>
+                    <li><a href="https://www.ato.gov.au/" target="_blank" rel="noopener noreferrer" title="Australian Taxation Office">Australian Taxation Office (ATO)</a> - Everything to do with your taxes.</li>
+                    <li><a href="https://www.servicesaustralia.gov.au/" target="_blank" rel="noopener noreferrer" title="Services Australia - Centrelink, Medicare, Child Support">Services Australia</a> - Access to essential services such as Centrelink, Medicare, and Child Support.</li>
                 </ul>
             </section>
 
             <section id="health-services" itemscope itemtype="https://schema.org/GovernmentService">
                 <h2>Health & Medical Services</h2>
-                <p class="section-intro">Australian health department resources, Medicare information, and public health programs.</p>
                 <ul>
                     <li><a href="https://www.health.gov.au/" target="_blank" rel="noopener noreferrer" title="Australian Department of Health">Department of Health</a> - Official health policies, Medicare information, public health initiatives, pandemic response, and healthcare program details.</li>
                 </ul>
@@ -177,45 +185,47 @@
 
             <section id="education-resources" itemscope itemtype="https://schema.org/GovernmentService">
                 <h2>Education & Training Resources</h2>
-                <p class="section-intro">Educational policies, funding programs, and training initiatives across Australia.</p>
+                <p class="section-intro"></p>
                 <ul>
                     <li><a href="https://www.education.gov.au/" target="_blank" rel="noopener noreferrer" title="Australian Department of Education">Department of Education</a> - School education policies, higher education resources, vocational training, student support programs, and funding information.</li>
                 </ul>
             </section>
 
             <section id="police-forces" itemscope itemtype="https://schema.org/GovernmentService">
-                <h2>Police Forces - National & Regional</h2>
-                <p class="section-intro">Law enforcement agencies across all Australian states, territories, and federal jurisdictions.</p>
+                <h2>Police Forces</h2>
+                <p class="section-intro">Every state/territory has it's own police force, including the whole of Australia</p>
                 <ul>
-                    <li><a href="https://www.afp.gov.au/" target="_blank" rel="noopener noreferrer" title="Australian Federal Police">Australian Federal Police (AFP)</a> - National federal police agency responsible for federal law enforcement, counter-terrorism, border protection, and international policing operations.</li>
-                    <li><a href="https://www.police.nsw.gov.au/" target="_blank" rel="noopener noreferrer" title="NSW Police Force">NSW Police Force</a> - New South Wales police service covering metropolitan Sydney and regional NSW areas.</li>
-                    <li><a href="https://www.police.vic.gov.au/" target="_blank" rel="noopener noreferrer" title="Victoria Police">Victoria Police</a> - Victoria state police service covering Melbourne and regional Victoria.</li>
-                    <li><a href="https://www.police.qld.gov.au/" target="_blank" rel="noopener noreferrer" title="Queensland Police Service">Queensland Police Service</a> - Queensland state police service covering Brisbane and regional Queensland areas.</li>
-                    <li><a href="https://www.police.sa.gov.au/" target="_blank" rel="noopener noreferrer" title="South Australia Police">South Australia Police (SAPOL)</a> - South Australia police service covering Adelaide and regional South Australia.</li>
-                    <li><a href="https://www.police.wa.gov.au/" target="_blank" rel="noopener noreferrer" title="Western Australia Police">Western Australia Police Force</a> - Western Australia police service covering Perth and regional WA.</li>
-                    <li><a href="https://www.police.tas.gov.au/" target="_blank" rel="noopener noreferrer" title="Tasmania Police">Tasmania Police</a> - Tasmania state police service covering Hobart, Launceston, and regional Tasmania.</li>
-                    <li><a href="https://pfes.nt.gov.au/police" target="_blank" rel="noopener noreferrer" title="Northern Territory Police">Northern Territory Police, Fire and Emergency Services</a> - Northern Territory police service covering Darwin and remote NT communities.</li>
+                    <li><a href="https://www.afp.gov.au/" target="_blank" rel="noopener noreferrer" title="Australian Federal Police">Australian Federal Police (AFP)</a> - The police force for the whole country.</li>
+                    <li><a href="https://www.police.nsw.gov.au/" target="_blank" rel="noopener noreferrer" title="NSW Police Force">NSW Police Force</a> - The police force for New South Wales.</li>
+                    <li><a href="https://www.police.vic.gov.au/" target="_blank" rel="noopener noreferrer" title="Victoria Police">Victoria Police</a> - The police force for Victoria.</li>
+                    <li><a href="https://www.police.qld.gov.au/" target="_blank" rel="noopener noreferrer" title="Queensland Police Service">Queensland Police Service</a> - The police force for Queensland.</li>
+                    <li><a href="https://www.police.sa.gov.au/" target="_blank" rel="noopener noreferrer" title="South Australia Police">South Australia Police (SAPOL)</a> - The police force for South Australia.</li>
+                    <li><a href="https://www.police.wa.gov.au/" target="_blank" rel="noopener noreferrer" title="Western Australia Police">Western Australia Police Force</a> - The police force for Western Australia.</li>
+                    <li><a href="https://www.police.tas.gov.au/" target="_blank" rel="noopener noreferrer" title="Tasmania Police">Tasmania Police</a> - The police force for Tasmania.</li>
+                    <li><a href="https://pfes.nt.gov.au/police" target="_blank" rel="noopener noreferrer" title="Northern Territory Police">Northern Territory Police, Fire and Emergency Services</a> - Northern Territory police service as well as fire and emergency services.</li>
                     <li><a href="https://police.act.gov.au/" target="_blank" rel="noopener noreferrer" title="ACT Policing">Australian Capital Territory Policing</a> - Australian Capital Territory police service covering Canberra and ACT region.</li>
                 </ul>
             </section>
 
             <section id="police-support" itemscope itemtype="https://schema.org/GovernmentService">
                 <h2>Police Support & Specialist Bodies</h2>
-                <p class="section-intro">Specialized law enforcement agencies and crime prevention organizations supporting Australian communities.</p>
+                <p class="section-intro">Specialized law enforcement agencies dedicated to specific areas of crime prevention and security.</p>
                 <ul>
-                    <li><a href="https://www.acic.gov.au/" target="_blank" rel="noopener noreferrer" title="Australian Criminal Intelligence Commission">Australian Criminal Intelligence Commission (ACIC)</a> - National criminal intelligence agency combating serious and organized crime across Australia.</li>
-                    <li><a href="https://www.crimestoppers.com.au/" target="_blank" rel="noopener noreferrer" title="Crime Stoppers Australia">Crime Stoppers Australia</a> - Anonymous crime reporting service enabling community members to report criminal activity safely and confidentially.</li>
+                    <li><a href="https://www.acic.gov.au/" target="_blank" rel="noopener noreferrer" title="Australian Criminal Intelligence Commission">Australian Criminal Intelligence Commission (ACIC)</a> - National criminal intelligence agency dedicated to combatting serious and organized crime across Australia.</li>
+                    <li><a href="https://www.crimestoppers.com.au/" target="_blank" rel="noopener noreferrer" title="Crime Stoppers Australia">Crime Stoppers Australia</a> - Allows members of the community to report criminal activities discretely.</li>
                 </ul>
             </section>
         </article>
     </main>
 
     <footer role="contentinfo">
-        <p>&copy; 2026 Australian Government Resources. Curated by Mac Foote. The public is free to do as they choose with this webpage.</p>
-        <p class="footer-info">This is an independent resource guide to official Australian government websites. Not affiliated with the Australian Government.</p>
+        <p>(Not copyright) 2026 Australian Government Resources. Curated by Mac Foote. The public is free to do as they choose with this webpage.</p>
+        <p class="footer-info">This is an independent resource guide to <u>unofficial</u> Australian government websites. Not affiliated with the Australian Government.</p>
         <nav aria-label="Footer navigation">
             <p class="footer-keywords">Resources: Australian Government Portal | ATO Tax Office | Services Australia Centrelink | Medicare | Police Forces | Education Department | Health Services | Government Directory Australia</p>
         </nav>
     </footer>
+    
+    <script src="disclaimer.js"></script>
 </body>
 </html>
